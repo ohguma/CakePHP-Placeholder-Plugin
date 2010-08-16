@@ -4,7 +4,7 @@
  * Image Controller
  *
  * @version 2010-08-16
- * @author  ohguma@gmail.com
+ * @author  ohguma
  *
  * [url]
  * /placeholder/image/(format)/(size)/(text color)/(background color)?text=(text)

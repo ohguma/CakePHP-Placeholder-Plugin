@@ -4,35 +4,35 @@
  * Placeholder Helper
  *
  * @version 2010-08-16
- * @author  ohguma@gmail.com
+ * @author  ohguma
  *
  */
 class PlaceholderHelper extends AppHelper
 {
 
-	public $helpers = array("html");
+    public $helpers = array("html");
 
-	/**
-	 * PNG Placeholder
-	 */
+    /**
+     * PNG Placeholder
+     */
     function png($size = null, $color = null, $bgcolor = null, $text = null)
     {
         return $this->image('png', $size, $color, $bgcolor, $text);
     }
 
 
-	/**
-	 * JPEG Placeholder
-	 */
+    /**
+     * JPEG Placeholder
+     */
     function jpg($size = null, $color = null, $bgcolor = null, $text = null)
     {
         return $this->image('jpg', $size, $color, $bgcolor, $text);
     }
 
 
-	/**
-	 * GIF Placeholder
-	 */
+    /**
+     * GIF Placeholder
+     */
     function gif($size = null, $color = null, $bgcolor = null, $text = null)
     {
         return $this->image('png', $size, $color, $bgcolor, $text);
